@@ -37,9 +37,9 @@ lcd.print(" Monitering");
 delay(2000)
 lcd.clear();
 lcd.setCursor(0,0);
-lcd.print("BY SAN,BHAG,DEV");
+lcd.print("SANDEEP");
 lcd.setCursor(0,1);
-lcd.print("S6 CSE");
+lcd.print("https://github.com/sandeeps29");
 delay(2000);
 lcd.clear();
 }
