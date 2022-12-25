@@ -9,6 +9,10 @@ Arduino UNO
 
 DHT11 sensor (Temperature + Humidity sensor)
 
+soil moisture sensor
+
+LDR
+
 LCD
 
 Hook wires
@@ -18,5 +22,7 @@ Breadboard
 Arduino IDE
 # DETAIL REPORT LINK
 https://drive.google.com/file/d/1qCJneNjyJcSFDIpgxZ4ZgghuXy9rEW1V/view?usp=sharing
-# VIDEO SAMPLE
+# SAMPLE VIDEOS AND IMAGES
+https://drive.google.com/drive/folders/1bzZkHxuyaT9sf7IUqkG53ZqWHNJwzEgb?usp=sharing
+
 
