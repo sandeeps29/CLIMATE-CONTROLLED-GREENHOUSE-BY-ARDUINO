@@ -9,7 +9,7 @@ Arduino UNO
 
 DHT11 sensor (Temperature + Humidity sensor)
 
-soil moisture sensor
+Soil moisture sensor
 
 LDR
 
@@ -21,11 +21,7 @@ Breadboard
 # SOFTWARE REQUIRMENTS
 Arduino IDE
 # CIRCUIT DESIGN
-In this system Arduino is the heart of the whole system which takes control over the process. When sensors sense any change in environment or in soil Arduino comes into action and processes the required operation. When the soil moisture sensor does not sense moisture in soil then Arduino turns on the water pump and sends a message to the owner of status that the motor is turned on. And if LDR senses low light then Arduino takes control and turns on the artificial lights.
-
-In this system a 16×2 LCD is used for displaying status for all operations like Motor turned on or off, temperature, humidity and light status. The LCD’s data pins are connected in 4-bit mode (data pin d5, d6, d7, d8 pin of LCD is directly connected with pin no. 4, 5, 6, 7 of
-
-Arduino and command pins of LCD’s Rs and En are connected with pin no. 2, 3 of Arduino). LDR is used for sensing light intensity and its output is connected to Analog pin A0 of Arduino while the artificial light is connected using relay. The relay is operated by using ULN2003 and controlled using pin number 10 of the arduino. Humidity and temperature sensors are used for sensing humidity and temperature that are connected directly with Analog pin A1 of Arduino. Fan is directly connected with pin 8 of Arduino and led light (in place of Sprays i used an led bulb to indicate humdity) is connected with pin 11 of arduino by using Relay. Water pump is also connected by using relay and is controlled by Arduino’s pin number 12(instead of waterpump i used a led bulb to indicate the working) and the sensor for measuring the soil moisture, pin number 9 is used.
+In this system Arduino is the heart of the whole system which takes control over the process. When sensors sense any change in environment or in soil Arduino comes into action and processes the required operation. When the soil moisture sensor does not sense moisture in soil then Arduino turns on the water pump and sends a message to the owner of status that the motor is turned on. And if LDR senses low light then Arduino takes control and turns on the artificial lights.In this system a 16×2 LCD is used for displaying status for all operations like Motor turned on or off, temperature, humidity and light status. The LCD’s data pins are connected in 4-bit mode (data pin d5, d6, d7, d8 pin of LCD is directly connected with pin no. 4, 5, 6, 7 of Arduino and command pins of LCD’s Rs and En are connected with pin no. 2, 3 of Arduino). LDR is used for sensing light intensity and its output is connected to Analog pin A0 of Arduino while the artificial light is connected using relay. The relay is operated by using ULN2003 and controlled using pin number 10 of the arduino. Humidity and temperature sensors are used for sensing humidity and temperature that are connected directly with Analog pin A1 of Arduino. Fan is directly connected with pin 8 of Arduino and led light (in place of Sprays i used an led bulb to indicate humdity) is connected with pin 11 of arduino by using Relay. Water pump is also connected by using relay and is controlled by Arduino’s pin number 12(instead of waterpump i used a led bulb to indicate the working) and the sensor for measuring the soil moisture, pin number 9 is used.
 
 # DETAIL REPORT LINK
 https://drive.google.com/file/d/1qCJneNjyJcSFDIpgxZ4ZgghuXy9rEW1V/view?usp=sharing
