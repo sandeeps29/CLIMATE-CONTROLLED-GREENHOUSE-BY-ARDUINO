@@ -1,4 +1,3 @@
-
 #include<LiquidCrystal.h>
 #include "DHT.h" #define dht_dpin 13
 #define dhtTYPE DHT11 // dht 11
