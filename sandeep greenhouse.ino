@@ -68,7 +68,7 @@ if(lux<1)
 {
 digitalWrite(light, HIGH);
 //sSerial.println("AT+CMGF=1");
-//Serial.println("AT+CMGS="8921798096"");
+//Serial.println("AT+CMGS="SANDEEP"");
 Serial.println("LOW LIGHT ");
 Serial.println("LIGHT TURNED ON");
 Serial.print("Light Intensity: ");
@@ -98,7 +98,7 @@ else
 if(check==1)
 {
 //Serial.println("AT+CMGF=1");
-//Serial.println("AT+CMGS="8921798096"");
+//Serial.println("AT+CMGS="SANDEEP"");
 Serial.print("LIGHT TURNED OFF");
 Serial.print("Light Intensity: ");
 Serial.print(lux);
@@ -128,7 +128,7 @@ if(temperature >32)
 {
 digitalWrite(fan, HIGH);
 //Serial.println("AT+CMGF=1");
-//Serial.println("AT+CMGS="8921798096"");
+//Serial.println("AT+CMGS="SANDEEP"");
 Serial.println("TEMPERATURE INCREASES FROM CRITICAL LEVEL");
 Serial.println("FAN TURNED ON");
 Serial.print("Light Intensity: ");
@@ -164,7 +164,7 @@ else
 if(check==2)
 {
 //Serial.println("AT+CMGF=1");
-//Serial.println("AT+CMGS="8921798096"");
+//Serial.println("AT+CMGS="SANDEEP"");
 Serial.println("FAN TURNED OFF");
 Serial.print("Light Intensity: ");
 Serial.print(lux);
@@ -188,7 +188,7 @@ if(humidity < 90)
 digitalWrite(spray, HIGH);
 digitalWrite(13, HIGH);
 //Serial.println("AT+CMGF=1");
-//Serial.println("AT+CMGS="8921798096"");
+//Serial.println("AT+CMGS="SANDEEP"");
 Serial.println("HUMIDITY INCREASES FROM DEFINED LEVEL ");
 Serial.println("SPRAY TURNED ON");
 Serial.print("Light Intensity: ");
@@ -203,7 +203,7 @@ Serial.println(" %");
 Serial.write(26);
 lcd.clear();
 lcd.setCursor(0,0);
-lcd.print("Humidity increas");
+lcd.print("Humidity increase");
 lcd.setCursor(0,1);
 lcd.print("Spray Turned ON ");
 delay(2000);
@@ -223,7 +223,7 @@ else
 if(check==3)
 {
 //Serial.println("AT+CMGF=1");
-//Serial.println("AT+CMGS="8921798096"");
+//Serial.println("AT+CMGS="SANDEEP"");
 Serial.println("SPRAY TURNED OFF");
 Serial.print("Light Intensity: ");
 Serial.print(lux);
@@ -247,7 +247,7 @@ if(digitalRead(soil)==1)
 21
 digitalWrite(motor, HIGH);
 //Serial.println("AT+CMGF=1");
-//Serial.println("AT+CMGS="8921798096"");
+//Serial.println("AT+CMGS="SANDEEP"");
 Serial.println("WATER REQUIRED ");
 Serial.println("MOTOR TURNED ON ");
 Serial.print("Light Intensity: ");
@@ -274,7 +274,7 @@ else
 if(check==4)
 {
 //Serial.println("AT+CMGF=1");
-//Serial.println("AT+CMGS="8921798096"");
+//Serial.println("AT+CMGS="SANDEEP"");
 22
 Serial.println("WATER REQUIRED ");
 Serial.println("MOTOR TURNED OFF ");
